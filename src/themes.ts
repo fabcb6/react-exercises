@@ -22,4 +22,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
         background-color: ${(props: themeProps) => props.theme.body};
     }
+    h1, h2, h3, h4, h5, span, p, div, a {
+      color: ${(props: themeProps) => props.theme.fontColor};
+    }
 `;
